@@ -59,28 +59,28 @@ streamlit run app_dashboard_dior.py
 
 ## 📂 Project Structure
 
-AI_Fashion_Dior_Analysis/
-│
-│ ├── ai_dior_venv/
-│ ├── image_scraper.py # Scrapes runway photos from FirstView
-│ ├── create_metadata_csv.py # Creates Dior base metadata CSVs
-│ ├── create_full_metadata_csv.py # Expands metadata with all image file paths
-│ ├── extract_embeddings.py # Extracts CLIP embeddings for all images
-│ ├── visualise_evolution.py # Performs PCA + t-SNE visual analysis
-│ ├── compute_concept_similarity.py # Computes similarity to style concepts
-│ ├── app_dashboard_dior.py # Streamlit dashboard for Dior
-│
-├── data/
-│ ├── metadata_dior_womenswear.csv
-│ ├── metadata_dior_womenswear_full.csv
-│ ├── dior_concept_scores.csv
-│ ├── dior_tsne_results.csv
-│ ├── embeddings_metadata_dior.csv
-│ ├── embeddings_clip_dior.npy
-│ └── *collection image folders*
-│
-├── requirements.txt
-└── README.md
+fashion-visual-intelligence/<br>
+│<br>
+├── image_scraper.py # Scrapes runway photos from FirstView<br>
+├── create_metadata_csv.py # Creates Dior base metadata CSVs<br>
+├── create_full_metadata_csv.py # Expands metadata with all image file paths<br>
+├── extract_embeddings.py # Extracts CLIP embeddings for all images<br>
+├── visualise_evolution.py # Performs PCA + t-SNE visual analysis<br>
+├── compute_concept_similarity.py # Computes similarity to style concepts<br>
+├── app_dashboard_dior.py # Streamlit dashboard for Dior<br>
+│<br>
+├── data/ # data created within scripts<br>
+│ ├── metadata_dior_womenswear.csv<br>
+│ ├── metadata_dior_womenswear_full.csv<br>
+│ ├── dior_concept_scores.csv<br>
+│ ├── dior_tsne_results.csv<br>
+│ ├── embeddings_metadata_dior.csv<br>
+│ ├── embeddings_clip_dior.npy<br>
+│ └── *collection image folders*<br>
+│<br>
+├── assets/ # screenshots<br>
+├── requirements.txt<br>
+└── README.md<br>
 
 ---
 
@@ -178,4 +178,5 @@ Visual samples shown in this dashboard are **low-resolution thumbnails** used so
 ---
 
 👩‍💻 **Author:** Axel Heussner  
+
 📧 [linkedin.com/in/axel-heussner](https://www.linkedin.com/in/axel-heussner)
