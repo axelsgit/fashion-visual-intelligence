@@ -1,0 +1,41 @@
+# Core Python dependencies
+numpy
+pandas
+scikit-learn
+matplotlib
+plotly
+seaborn
+tqdm
+
+# Deep Learning & CLIP
+torch
+torchvision
+ftfy
+regex
+tqdm
+git+https://github.com/openai/CLIP.git
+
+# Image processing
+Pillow
+opencv-python
+
+# Web scraping
+selenium
+beautifulsoup4
+requests
+
+# Dashboard & visualization
+streamlit
+plotly-express
+
+# Dimensionality reduction
+scipy
+umap-learn
+
+# Data handling & utilities
+joblib
+
+# Optional (for reproducibility / packaging)
+python-dotenv
+
+# Note: Make sure ChromeDriver or a compatible driver is installed for Selenium.
